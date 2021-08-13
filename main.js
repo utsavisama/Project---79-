@@ -31,7 +31,7 @@ htmldata=htmldata+'<div class="card">'
 document.getElementById("display_addmenu").innerHTML = htmldata;
 }
 function add_top(){
-    var item=document.getElemnetbyId("add_item").value;
+    var item=document.getElementById("add_item").value;
     menu_list_array.push(item);
     add_item(); }
 
